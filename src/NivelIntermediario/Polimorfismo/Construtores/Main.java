@@ -5,13 +5,13 @@ public class Main {
         Hokages Hashirama = new Hokages();
         Hashirama.idade = 45;
 
-        Hokages Tobirama = new Hokages("Tobirama Senju");
+        Hokages Tobirama = new Hokages();
         System.out.println(Tobirama.nome);
 
-        Hokages Hiruzen = new Hokages(40);
+        Hokages Hiruzen = new Hokages();
         System.out.println(Hiruzen.idade);
 
-        Hokages Minato = new Hokages("Minato Namikaze", 32, false);
+        Hokages Minato = new Hokages();
         System.out.println(Minato.idade);
     }
 }
