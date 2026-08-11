@@ -1,6 +1,6 @@
 package NivelIntermediario.Polimorfismo.Construtores;
 
-public class Hokages {
+public abstract class Hokages {
 
     String nome;
     int idade;
@@ -8,6 +8,8 @@ public class Hokages {
     int missoes;
     double altura;
     String statusMissao;
+
+    public abstract void sabedoriaHokage();
 
     // All args constructor
     public Hokages(String nome, int idade, boolean vivoOuNao, int missoes, double altura, String statusMissao) {

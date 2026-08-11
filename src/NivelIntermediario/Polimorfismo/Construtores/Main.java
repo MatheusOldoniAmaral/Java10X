@@ -2,16 +2,10 @@ package NivelIntermediario.Polimorfismo.Construtores;
 
 public class Main {
     public static void main(String[] args) {
-        Hokages Hashirama = new Hokages();
+
+        Senju Hashirama = new Senju();
+        Hashirama.nome = "Hashirama Senju";
         Hashirama.idade = 45;
-
-        Hokages Tobirama = new Hokages();
-        System.out.println(Tobirama.nome);
-
-        Hokages Hiruzen = new Hokages();
-        System.out.println(Hiruzen.idade);
-
-        Hokages Minato = new Hokages();
-        System.out.println(Minato.idade);
+        Hashirama.sabedoriaHokage();
     }
 }
