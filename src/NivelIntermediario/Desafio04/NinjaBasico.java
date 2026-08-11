@@ -4,23 +4,23 @@ public class NinjaBasico implements Ninja {
 
     String nome;
     int idade;
-    String habilidade;
+    TipoHabilidade tipoHabilidade;
 
     @Override
     public void mostrarInformacoes() {
         System.out.println("\nNome: " + nome);
         System.out.println("Idade: " + idade);
-        System.out.println("Habilidade: " + habilidade);
+        System.out.println("Habilidade: " + tipoHabilidade);
     }
 
     @Override
     public void executarHabilidade() {
-        System.out.println("Executando habilidade e se clonando...");
+        System.out.println("Executando habilidade " + tipoHabilidade);
     }
 
-    public NinjaBasico(int idade, String nome, String habilidade) {
-        this.idade = idade;
+    public NinjaBasico(String nome, int idade, TipoHabilidade tipoHabilidade) {
         this.nome = nome;
-        this.habilidade = habilidade;
+        this.idade = idade;
+        this.tipoHabilidade = tipoHabilidade;
     }
 }
