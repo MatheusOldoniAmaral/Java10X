@@ -6,6 +6,7 @@ public class Main {
         Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.habilidadeEspecial();
+        naruto.estrategiaDeBatallhaNinja();
 
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
