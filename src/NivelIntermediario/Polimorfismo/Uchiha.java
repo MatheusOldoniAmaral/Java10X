@@ -3,7 +3,7 @@ package NivelIntermediario.Polimorfismo;
 public class Uchiha extends Ninja {
 
     @Override
-    public void estrategiaDeBatallhaNinja() {
+    public void estrategiaDeBatalhaNinja() {
         System.out.println("Essa é a minha estratégia de batalha!");
     }
 

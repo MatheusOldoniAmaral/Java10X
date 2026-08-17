@@ -12,7 +12,7 @@ public abstract class Ninja implements EstrategiaDeBatalha {
 
     // Por estar sobreescrevendo o metodo da interface, tenho que usar o Override
     @Override
-    public void estrategiaDeBatallhaNinja() {
-        System.out.println("Essa é a minha estratégia de batalha!");
+    public void estrategiaDeBatalhaNinja() {
+        System.out.println("Meu nome é " + nome + " e essa é a minha estratégia de batalha!");
     }
 }
