@@ -11,7 +11,7 @@ public class Desafio02 {
         String[] herois = new String[numeroMaximo];
 
         //Contadores
-            int heroisCadastrados = 0;
+        int heroisCadastrados = 0;
         int escolhaMenu = 0;
 
         while (escolhaMenu != 4) {
