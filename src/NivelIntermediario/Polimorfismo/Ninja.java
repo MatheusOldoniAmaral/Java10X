@@ -26,4 +26,21 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
         this.rank = rank;
     }
+    
+    //TODO: Sobrecarga de método - Inteligencia de combate
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é : " + nome + " e essa é minha inteligencia de combate");
+    }
+
+    public void inteligenciaDeCombate(int qi) {
+
+        if (qi > 150) {
+            System.out.println("Meu nome é : " + nome + " e essa é minha inteligencia de combate");
+        }
+    }
+
+    public void habilidadeEspecial() {
+        System.out.println();
+    }
+
 }
