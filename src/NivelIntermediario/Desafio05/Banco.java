@@ -16,10 +16,15 @@ public class Banco {
     }
 
     public void transferir(ContaBancaria origem, ContaBancaria destino, double valor) {
-
+        if (origem.saldo >= valor) {
+            origem.saldo -= valor;
+            destino.depositar(valor);
+        }
     }
 
     public void transferir(int indiceOrigem, int indiceDestino, double valor) {
-
+        ContaBancaria origem = contas.get(indiceOrigem);
+        ContaBancaria destino = contas.get(indiceDestino);
+        transferir(origem, destino, valor);
     }
 }
