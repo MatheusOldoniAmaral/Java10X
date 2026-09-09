@@ -46,6 +46,7 @@ public class Main {
                     } else {
                         contaPoupanca.depositar(valorDeposito);
                     }
+                    System.out.println("Depósito realizado com sucesso!");
                     break;
 
                 case 3:
@@ -56,6 +57,7 @@ public class Main {
                     System.out.print("Valor a transferir: ");
                     double valorTransferencia = scanner.nextDouble();
                     banco.transferir(indiceOrigem, indiceDestino, valorTransferencia);
+                    System.out.println("Transferência realizada com sucesso!");
                     break;
 
                 case 0:
