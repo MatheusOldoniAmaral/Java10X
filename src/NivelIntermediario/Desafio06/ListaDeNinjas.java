@@ -11,11 +11,11 @@ public class ListaDeNinjas {
     }
 
     public void adicionarNovoNinja(Ninja ninja) {
-        listaDeNinjas.add(ninja);
+        listaDeNinjas.addFirst(ninja);
     }
 
     public void adicionarNovoNinja(String nome, int idade, String aldeia) {
-        listaDeNinjas.add(new Ninja(nome, idade, aldeia));
+        listaDeNinjas.addFirst(new Ninja(nome, idade, aldeia));
     }
 
     public void exibirListaNinja() {
